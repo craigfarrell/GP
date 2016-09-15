@@ -9,6 +9,7 @@ namespace GP.Models
     public class Character
     {
         public int ID { get; set; }
+        public Guid UserID { get; set; }
         [Required]
         public string Name { get; set; }
         public int CivilizationID { get; set; }
