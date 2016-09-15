@@ -17,6 +17,7 @@ namespace GP.Models
         public int Health { get; set; }
         public bool Alive { get; set; }
         public int Credits { get; set; }
-        public int MilitaryRank { get; set; }
+        public virtual MilitaryRank MilitaryRank { get; set; }
+        public virtual PoliticalRank PoliticalRank { get; set; }
     }
 }
